@@ -7,7 +7,7 @@ Client-server implementation for internet banking using TCP and UDP sockets in C
 
 ## Server
 
-The server accepts multiple clients connected at the same time using multiplexing.
+The server accepts multiple clients connected at the same time by using multiplexing.
 
 Make sure you start the server first, before trying to connect any clients to it.
 
@@ -28,6 +28,6 @@ Make sure you start the server first, before trying to connect any clients to it
 + `login <card_number> <pin>`
 + `logout`
 + `listsold` -> works only with authentificated clients and prints the amount of money in the bank account
-+ `transfer <destination_cardNo> <sum>
++ `transfer <destination_cardNo> <sum>`
 + `unlock` -> sends an unlock request for the last card number for which the client attempted to log on
 + `quit` -> shuts down the client

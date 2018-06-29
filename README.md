@@ -1,6 +1,6 @@
 # internet-banking
 
-This implementation does not provide any **security**. It is just an exercise project for using TCP and UDP sockets in C++.
+This implementation does not provide any **security**. It is just a learning project for using TCP and UDP sockets in C++.
 
 ## Building
 1. Use `make` to build the server and client source files;
